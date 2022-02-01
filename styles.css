@@ -1,5 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&family=Lora&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 70px !important;
+    letter-spacing: -2px;
+}
+
+.nav-item {
+    font-size: 25px !important;
+    letter-spacing: -0.5px;
+}
+
 p {
-    margin-top: 125px;
+    font-family: 'Lora', sans-serif;
+    margin-top: 200px;
     margin-bottom: 25px;
     margin-left: 25px;
     margin-right: 25px;
