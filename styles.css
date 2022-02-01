@@ -4,13 +4,13 @@ html {
     font-size: 12px;
 }
 
-nav {
-    font-family: 'Karla', sans-serif;
-}
-
 body {
     font-family: 'Lora', sans-serif;
-    padding-top: 4rem;
+    margin: 0rem;
+}
+
+nav {
+    font-family: 'Karla', sans-serif;
 }
 
 .navbar-brand {
@@ -24,11 +24,34 @@ body {
     letter-spacing: -0.05rem;
 }
 
+.left {
+    width: 40%;
+    height: 100vh;
+    background-image: url('me.jpeg');
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+
+.right {
+    width: 60%;
+    height: 100vh;
+    float: right;
+    display: block;
+}
+
 p {
     font-size: 2rem;
-    margin-top: 12.5rem;
-    margin-bottom: 1rem;
+    margin-top: 15.5rem;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     text-align: left;
+}
+
+* {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
