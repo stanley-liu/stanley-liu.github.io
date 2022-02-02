@@ -19,7 +19,6 @@ nav {
 }
 
 .nav-item {
-    font-family: 'Karla', sans-serif;
     font-size: 2rem !important;
     letter-spacing: -0.05rem;
 }
@@ -39,19 +38,14 @@ nav {
 .right {
     width: 60%;
     height: 100vh;
-    float: right;
     display: block;
+    float: right;
 }
 
 p {
     font-size: 2rem;
     margin-top: 15.5rem;
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     text-align: left;
-}
-
-* {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
 }
