@@ -50,14 +50,26 @@ nav {
     margin-right: 2rem;
 }
 
-.company {
-    display: inline-block;
+table {
+    width: 100%;
 }
 
-.location {
-    display: inline-block;
+table td {
+    vertical-align: top;
+}
+
+.company, .location, .date {
+    font-size: 1.7rem;
+}
+
+.company {
+    font-weight: bold;
 }
 
 .date {
-    display: inline-block;
+    text-align: right;
+}
+
+.tasks {
+    font-size: 1.3rem;
 }
