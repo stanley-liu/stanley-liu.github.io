@@ -24,10 +24,9 @@ nav {
 }
 
 .left {
-    width: 40%;
+    width: 30%;
     height: 100vh;
     background-image: url('me.jpeg');
-    background-attachment: scroll;
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -36,16 +35,29 @@ nav {
 }
 
 .right {
-    width: 60%;
+    width: 70%;
     height: 100vh;
     display: block;
     float: right;
+    overflow: auto;
+    font-size: 2rem;
+    text-align: left;
 }
 
-p {
-    font-size: 2rem;
+.main, .about, .work-container, .project-container {
     margin-top: 15.5rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    text-align: left;
+}
+
+.company {
+    display: inline-block;
+}
+
+.location {
+    display: inline-block;
+}
+
+.date {
+    display: inline-block;
 }
