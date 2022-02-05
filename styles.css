@@ -73,3 +73,10 @@ table td {
 .tasks {
     font-size: 1.3rem;
 }
+
+.card {
+    width: 75%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
