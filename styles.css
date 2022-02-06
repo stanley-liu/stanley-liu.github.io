@@ -75,8 +75,15 @@ table td {
 }
 
 .card {
-    width: 75%;
-    margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    max-width: 32%;
+}
+
+#sailr, #sheepdog, #orbital {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
 }
