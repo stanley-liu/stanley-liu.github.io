@@ -45,9 +45,10 @@ nav {
 }
 
 .main, .about, .work-container, .project-container {
-    margin-top: 15.5rem;
     margin-left: 2rem;
     margin-right: 2rem;
+    padding-top: 15.5rem;
+    padding-bottom: 1rem;
 }
 
 table {
