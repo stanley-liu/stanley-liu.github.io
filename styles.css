@@ -9,6 +9,12 @@ body {
     margin: 0rem;
 }
 
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 nav {
     font-family: 'Karla', sans-serif;
 }
@@ -51,6 +57,10 @@ nav {
     padding-bottom: 1rem;
 }
 
+.project-container {
+    padding-top: 17rem;
+}
+
 table {
     width: 100%;
 }
@@ -76,15 +86,15 @@ table td {
 }
 
 .card {
-    max-width: 32%;
+    max-width: 80%;
+    margin: auto;
 }
 
-#sailr, #sheepdog, #orbital {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.card-img-top {
-    width: 100%;
+.card-img {
+    height: 100%;
     object-fit: cover;
+}
+
+.card-text {
+    font-size: 1.5rem;
 }
