@@ -50,7 +50,7 @@ nav {
     text-align: left;
 }
 
-.main, .about, .work-container, .project-container {
+.main, .about, .work-container {
     margin-left: 2rem;
     margin-right: 2rem;
     padding-top: 15.5rem;
@@ -59,6 +59,7 @@ nav {
 
 .project-container {
     padding-top: 17rem;
+    height: auto;
 }
 
 table {
@@ -97,4 +98,21 @@ table td {
 
 .card-text {
     font-size: 1.5rem;
+}
+
+#sailr, #sheepdog, #orbital {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    color: white;
+  }
+
+.project-body {
+    padding-top: 15.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
