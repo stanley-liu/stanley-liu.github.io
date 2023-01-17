@@ -32,7 +32,7 @@ nav {
 .left {
     width: 30%;
     height: 100vh;
-    background-image: url('me.jpeg');
+    background-image: url('../images/me.jpeg');
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
