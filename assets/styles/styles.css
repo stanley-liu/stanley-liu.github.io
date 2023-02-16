@@ -11,7 +11,7 @@ body {
 
 h1 {
     font-family: 'Karla', sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -100,19 +100,21 @@ table td {
     font-size: 1.5rem;
 }
 
+.project-body {
+    padding-top: 15.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.7rem;
+}
+
 #sailr, #sheepdog, #orbital {
     position: fixed; /* Sit on top of the page content */
     display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
+    width: auto; /* Full width (cover the whole page) */
     height: 100%; /* Full height (cover the whole page) */
     background-color: rgba(0,0,0,0.5); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
     color: white;
+    backdrop-filter: blur(20px);
   }
-
-.project-body {
-    padding-top: 15.5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
