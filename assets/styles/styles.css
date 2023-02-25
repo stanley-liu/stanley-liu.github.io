@@ -32,7 +32,7 @@ nav {
 .left {
     width: 30%;
     height: 100vh;
-    background-image: url('../images/me.jpeg');
+    background-image: url('../media/me.jpeg');
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -117,4 +117,11 @@ table td {
     cursor: pointer; /* Add a pointer on hover */
     color: white;
     backdrop-filter: blur(20px);
+    overflow-y: scroll;
+  }
+
+  video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
