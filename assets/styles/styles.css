@@ -50,7 +50,7 @@ nav {
     text-align: left;
 }
 
-.main, .about, .work-container {
+.main, .work-container {
     margin-left: 2rem;
     margin-right: 2rem;
     padding-top: 15.5rem;
@@ -101,27 +101,50 @@ table td {
 }
 
 .project-body {
-    padding-top: 15.5rem;
     margin-left: 2rem;
     margin-right: 2rem;
     font-size: 1.7rem;
 }
 
 #sailr, #sheepdog, #orbital {
+    padding-top: 190px;
     position: fixed; /* Sit on top of the page content */
     display: none; /* Hidden by default */
     width: auto; /* Full width (cover the whole page) */
     height: 100%; /* Full height (cover the whole page) */
     background-color: rgba(0,0,0,0.5); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
     color: white;
     backdrop-filter: blur(20px);
     overflow-y: scroll;
   }
 
-  video {
+#x {
+    position: absolute;
+    width: 25px;
+    height: auto;
+    top: 196.25px;
+    right: 20px;
+    cursor: pointer;
+}
+
+video {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
+
+@media (max-width: 991px) {
+    .main, .work-container {
+        padding-top: 11rem;
+    }
+    .project-container {
+        padding-top: 12.5rem;
+    }
+    #sailr, #sheepdog, #orbital {
+        padding-top: 142px;
+    }
+    #x {
+        top: 148.25px;
+    }
+}
